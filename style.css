@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto', sans-serif ; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    height: 92.5vh;
+}
+
+.cabecalho-link {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    padding: 1rem;
+}
+
+.cabecalho-icon{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+   
+}
+.cabecalho-navegacao{
+    display: flex;
+    height: 7.5vh;
+    justify-content: center;
+    padding: 5px;
+    gap: 50px;
+    background-color: aqua;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.cabecalho-carrossel{
+    background-image: url(apple-event.jpg);
+    height: 92.5vh;
+    background-size: cover;
+    background-position: center;
+
+}
